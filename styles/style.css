@@ -311,15 +311,6 @@ body {
   margin: 0 auto;
 }
 
-.footer__column-heading {
-  color: white;
-  margin: 0;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
 .footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
@@ -327,6 +318,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
@@ -362,8 +355,13 @@ body {
   flex-direction: column;
 }
 
-.footer__column-icon {
-  padding-right: 10px;
+.footer__column-heading {
+  color: white;
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .footer__column-links {
@@ -373,4 +371,8 @@ body {
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+}
+
+.footer__column-icon {
+  padding-right: 10px;
 }
