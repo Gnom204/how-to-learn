@@ -350,7 +350,6 @@
   flex-direction: column;
 }
 
-
 .footer__column-link {
   text-decoration: none;
   color: white;
@@ -359,9 +358,6 @@
   font-weight: 400;
   margin: 0;
 }
-
-
-
 
 .footer__column-icon {
   padding-right: 10px;
