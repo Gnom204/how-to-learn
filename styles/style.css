@@ -149,9 +149,10 @@
   font-size: 60px;
   font-weight: 600;
   margin: 0 auto 20px auto;
+  z-index: 10;
 }
 
-.section__subtitle {
+.section-subtitle {
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -246,11 +247,12 @@
 /* --Kaufman-- */
 
 .kaufman {
-  background-color: var(--darkgray);
   overflow: hidden;
   position: relative;
   margin: 0;
   padding: 90px 0;
+  background-color: var(--darkgray);
+  z-index: 1;
 }
 
 .section-title_theme_dark {
@@ -278,7 +280,7 @@
   height: 877px;
   right: -210px;
   top: 0;
-  z-index: 0;
+  z-index: -1;
 }
 
 .table__heading_theme_dark {
