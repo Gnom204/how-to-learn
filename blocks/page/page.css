@@ -7,4 +7,8 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  /* Переменные*/
+  --darkgray: #1f1f1f;
+  --lightgray: #f2f2f2;
+  --blue: #2f80ed;
 }
