@@ -5,8 +5,15 @@
   color: var(--blue);
   text-decoration: none;
   margin: 0 0 0 48px;
+  align-self: flex-start;
+  transition: opacity 0.5s ease;
 }
 
 .khan__buy-link::after {
   content: " \2192";
+}
+
+.khan__buy-link:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s ease;
 }

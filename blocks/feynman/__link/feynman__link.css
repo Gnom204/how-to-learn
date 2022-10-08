@@ -7,8 +7,14 @@
   top: 50%;
   right: 48px;
   color: var(--blue);
+  transition: opacity 0.5s ease;
 }
 
 .feynman__link::after {
   content: " \2192";
+}
+
+.feynman__link:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s ease;
 }
